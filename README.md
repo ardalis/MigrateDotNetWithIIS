@@ -40,3 +40,10 @@ Next, go to the .NET Framework app, `api.contoso.com`. Add a new rewrite rule. I
 ```
 
 After restarting IIS you should be able to navigate to `api.contoso.com/api/states` and see it served by the ASP.NET MVC app. But when navigating to `api.contoso.com/api/values` you should see it served from the ASP.NET Core app running .NET 5.
+
+## Publish Profiles
+
+ASP.NET MVC 5 App (.NET Framework)
+![image](https://user-images.githubusercontent.com/782127/107702937-f82d4300-6c88-11eb-8f3d-5fc8a2d43f68.png)
+
+
