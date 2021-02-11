@@ -46,4 +46,6 @@ After restarting IIS you should be able to navigate to `api.contoso.com/api/stat
 ASP.NET MVC 5 App (.NET Framework)
 ![image](https://user-images.githubusercontent.com/782127/107702937-f82d4300-6c88-11eb-8f3d-5fc8a2d43f68.png)
 
+ASP.NET Core 2.1 App (running on .NET Framework net461)
+![image](https://user-images.githubusercontent.com/782127/107703083-2ad73b80-6c89-11eb-9dbb-f216cc77a29e.png)
 
