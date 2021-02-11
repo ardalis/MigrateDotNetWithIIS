@@ -49,3 +49,5 @@ ASP.NET MVC 5 App (.NET Framework)
 ASP.NET Core 2.1 App (running on .NET Framework net461)
 ![image](https://user-images.githubusercontent.com/782127/107703083-2ad73b80-6c89-11eb-9dbb-f216cc77a29e.png)
 
+ASP.NET Core 5 App (running on .NET 5)
+![image](https://user-images.githubusercontent.com/782127/107703181-50644500-6c89-11eb-939a-ca3042ffae88.png)
