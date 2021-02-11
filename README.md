@@ -8,11 +8,13 @@ This scenario allows you to migrate a portion of an existing ASP.NET app to ASP.
 
 1. Publish the DotNetMvcApp to an IIS Site.
 2. Publish AspNetCoreApi to a folder.
-2. Open IIS Manager, navigate to the Site, right-click, Add Application. Name the application `api`. Point it at the folder specified in the previous step. Configure it with its own application pool set to No Managed Code.
+3. Open IIS Manager, navigate to the Site, right-click, Add Application. Name the application `api`. Point it at the folder specified in the previous step. Configure it with its own application pool set to No Managed Code.
 
 You should be able to reach the AspNetCoreApi app by navigating to the main Site's `/api` path. Note that routes in the AspNetCoreApi project do not include `api` in them.
 
 In this example, the AspNetCoreApi project is running on .NET 4.6.1 and should be able to use most of the same libraries as the original ASP.NET MVC app.
+
+Note that you can repeat step 3 above for as many different folders as you want. If your original app had content under `Schools`, `Teachers`, and `Students` you could migrate these one by one to use the nested ASP.NET Core app by adding new applications and pointing them all to the same folder.
 
 ## Scenario 2: Gradually shift individual API endpoints/routes to ASP.NET Core / ASP.NET 5
 
