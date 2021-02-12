@@ -1,6 +1,6 @@
 # Migrate DotNet With IIS
 
-Samples used for porting to .NET ebook.
+Samples used in the [Porting Existing ASP.NET Apps to ASP.NET Core](https://aka.ms/aspnet-porting-ebook) ebook showing various IIS approaches to hosting ASP.NET and ASP.NET Core side by side.
 
 ## Scenario 1: .NET Core App inside .NET Framework App
 
